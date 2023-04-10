@@ -1,4 +1,4 @@
-
+import "./styles/menuBar.css"
 import HeaderBar from './HeaderBar'
 import { useEffect, useState } from 'react'
 
@@ -12,16 +12,19 @@ function MenuBar() {
         console.log(actual_class)
     }
 
-    useEffect(() => {
-        console.log(`Minha classe atual é ${actual_class}`)
-    }, [actual_class])
-    
+    const Close_menu = () => {
+        set_class((previous_state) => {
+            return "closed"
+        })
+
+        console.log(actual_class)
+    }
 
     return(
         <div>
-            <HeaderBar throwData={Change_class}/>
+            <div className={actual_class == "open" ? "hide_it" : "show_it"}><HeaderBar throwData={Change_class}/></div>
             <div className="wrapper menu_container">
-                <h1>I'am header bar</h1>
+                <h1 onClick={Close_menu}>I'am header bar</h1>
             </div>
         </div>
     )

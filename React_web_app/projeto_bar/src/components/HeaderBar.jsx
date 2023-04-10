@@ -7,9 +7,18 @@ function HeaderBar(props) {
     const [state, set_state] = useState()
     
     const OnClickHandler = () => {
-        set_state("oppened")
-        console.log(state)
+        if(state != "open") {
+
+            set_state("open")
+        } else if(state == "open") {
+
+            set_state("closed")
+        }
     }
+
+    useEffect(() => {
+        props.throwData(state)
+    })
 
     return(
         <div className='wrapper header_container'>

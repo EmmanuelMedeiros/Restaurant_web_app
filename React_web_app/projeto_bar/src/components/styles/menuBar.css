@@ -1,0 +1,16 @@
+.wrapper.menu_container {
+
+    background-color: grey;
+
+    height: 100vh;
+    margin-top: -1rem;
+}
+
+.hide_it {
+    display: none;
+}
+
+.show_it {
+    display: block;
+}
+
