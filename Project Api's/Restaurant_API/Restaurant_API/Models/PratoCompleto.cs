@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text;
+using System.Text.Json;
 
 namespace Restaurant_API.Models {
     [Table("pratos_completos")]
@@ -16,12 +18,13 @@ namespace Restaurant_API.Models {
 
         public PratoCompleto() { }
 
-        public PratoCompleto(int id, string name, string description, double value) {
+        public PratoCompleto(int id, string name, string description, double value, List<Guarnicao> guarnicao) {
 
             Id = id;
             Name = name;
             Description = description;
             Value = value;
+            _guarnicao = guarnicao;
         }
 
         public void AddGuarnicao(Guarnicao guarnicao) {
@@ -35,6 +38,11 @@ namespace Restaurant_API.Models {
 
                 _guarnicao.Add(guarnicao);
             }
+        }
+
+        public string ShowGuarnicao() {
+
+            return $"Id: {Id}, Description: {Description}, Guarnicões: {_guarnicao}";
         }
 
         public void FullValue() {

@@ -2,6 +2,8 @@
 using Restaurant_API.Repository;
 using Restaurant_API.Models;
 using Restaurant_API.Business;
+using System.Text;
+using System.Text.Json;
 
 namespace Restaurant_API.Controllers {
     [ApiController]
@@ -31,6 +33,8 @@ namespace Restaurant_API.Controllers {
         [HttpPost("{id}")]
         public ActionResult GetaNewPrato(int id, List<Guarnicao> guarnicao) {
 
+            int count = 1;
+
             PratoCompleto meu_prato = _business.GetPratoCompletoById(id);
 
             if(meu_prato != null) { 
@@ -42,7 +46,21 @@ namespace Restaurant_API.Controllers {
 
                 meu_prato.FullValue();
 
-                return Ok(meu_prato);
+                Dictionary<string, object> dict = new Dictionary<string, object>();
+
+                dict.Add("Id", meu_prato.Id);
+                dict.Add("Nome_do_prato", meu_prato.Name);
+
+                List<Guarnicao> my_list = new List<Guarnicao>();
+                foreach(var element in guarnicao) {
+
+                    var my_guarnicao = new Guarnicao(element.Id, element.Name, element.Value);
+                    my_list.Add(my_guarnicao);
+                }
+
+                dict.Add("Guarnicao", my_list);
+
+                return Ok(dict);
             } else {
                 return BadRequest();
             }
