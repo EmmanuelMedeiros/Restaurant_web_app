@@ -7,6 +7,7 @@ Guarnicao d = new Guarnicao(1, "purê", 5.00);
 Guarnicao e = new Guarnicao(1, "pirão", 5.60);
 
 PratoCompleto pratoA = new PratoCompleto(4, "Mista boi e porco comp.", "descrição do prato", 75.00);
+Prato tira_gosto = new TiraGosto(4, "Boi tira-gosto", "Prato description", 48.5);
 
 pratoA.AddGuarnicao(a);
 pratoA.AddGuarnicao(b);
