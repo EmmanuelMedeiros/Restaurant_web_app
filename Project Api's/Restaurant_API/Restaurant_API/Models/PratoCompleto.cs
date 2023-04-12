@@ -12,16 +12,18 @@ namespace Restaurant_API.Models {
         public string Description { get; set; }
         [Column("value")]
         public double Value { get; set; }
-        public List<Guarnicao> _guarnicao { get; set; } = new List<Guarnicao>();
+        private List<Guarnicao> _guarnicao = new List<Guarnicao>();
 
         public PratoCompleto() { }
 
         public PratoCompleto(int id, string name, string description, double value) {
+
             Id = id;
             Name = name;
             Description = description;
             Value = value;
         }
+
         public void AddGuarnicao(Guarnicao guarnicao) {
 
             if (_guarnicao.Count < 2 && guarnicao.Id != 3) {

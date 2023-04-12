@@ -1,7 +1,7 @@
 ﻿using Restaurant_API.Models;
 
-namespace Restaurant_API.Repository {
-    public interface IMenuRepositoryInterface {
+namespace Restaurant_API.Business {
+    public interface IMenuBusinessInterface {
 
         List<PratoCompleto> GetAllPratosCompletos();
         PratoCompleto GetPratoCompletoById(int id);

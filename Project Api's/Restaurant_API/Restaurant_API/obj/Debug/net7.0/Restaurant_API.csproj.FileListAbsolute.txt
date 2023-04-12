@@ -36,3 +36,41 @@ C:\Users\emman\OneDrive\Área de Trabalho\Projeto_bar\Restaurant_web_app\Project
 C:\Users\emman\OneDrive\Área de Trabalho\Projeto_bar\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.pdb
 C:\Users\emman\OneDrive\Área de Trabalho\Projeto_bar\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.genruntimeconfig.cache
 C:\Users\emman\OneDrive\Área de Trabalho\Projeto_bar\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\ref\Restaurant_API.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\appsettings.json
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Restaurant_API.exe
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Restaurant_API.deps.json
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Restaurant_API.runtimeconfig.json
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Restaurant_API.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Restaurant_API.pdb
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.csproj.AssemblyReference.cache
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.AssemblyInfoInputs.cache
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.AssemblyInfo.cs
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.csproj.CoreCompileInputs.cache
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\staticwebassets\msbuild.Restaurant_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\staticwebassets\msbuild.build.Restaurant_API.props
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Restaurant_API.props
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Restaurant_API.props
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\scopedcss\bundle\Restaurant_API.styles.css
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.csproj.CopyComplete
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\refint\Restaurant_API.dll
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.pdb
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\Restaurant_API.genruntimeconfig.cache
+C:\Users\55829\Desktop\Restaurant_web_app\Restaurant_web_app\Project Api's\Restaurant_API\Restaurant_API\obj\Debug\net7.0\ref\Restaurant_API.dll

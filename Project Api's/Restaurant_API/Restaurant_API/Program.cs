@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Restaurant_API.Business;
+using Restaurant_API.Business.Implementation;
 using Restaurant_API.Context;
 using Restaurant_API.Repository;
 using Restaurant_API.Repository.Implementation;
@@ -14,6 +16,7 @@ builder.Services.AddDbContext<MySQLContext>(options => options.UseMySql(
     new MySqlServerVersion(new Version(8, 0, 29)))
 );
 builder.Services.AddScoped<IMenuRepositoryInterface, MenuRepositoryImplementation>();
+builder.Services.AddScoped<IMenuBusinessInterface, MenuBusinessImplementation>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
