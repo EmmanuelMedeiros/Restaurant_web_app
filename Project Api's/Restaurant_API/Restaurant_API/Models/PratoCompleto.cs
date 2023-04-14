@@ -40,21 +40,20 @@ namespace Restaurant_API.Models {
             }
         }
 
-        public string ShowGuarnicao() {
-
-            return $"Id: {Id}, Description: {Description}, Guarnicões: {_guarnicao}";
-        }
-
         public void FullValue() {
 
-            double valorGuarnicao = 0;
+            foreach(var element in _guarnicao) {
 
-            foreach (var guarnicao in _guarnicao) {
-
-                valorGuarnicao += guarnicao.Value;
+                if(element.Id == 3) {
+                    Value += element.Value;
+                }
             }
 
-            Value += valorGuarnicao;
+            if(_guarnicao.Count > 2) {
+                for(int i = 3; i <= _guarnicao.Count; i++) {
+                    Value += _guarnicao[i - 1].Value;
+                }
+            }
         }
 
         public override string ToString() {

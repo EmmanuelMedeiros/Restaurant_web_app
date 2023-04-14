@@ -33,8 +33,6 @@ namespace Restaurant_API.Controllers {
         [HttpPost("{id}")]
         public ActionResult GetaNewPrato(int id, List<Guarnicao> guarnicao) {
 
-            int count = 1;
-
             PratoCompleto meu_prato = _business.GetPratoCompletoById(id);
 
             if(meu_prato != null) { 
@@ -43,8 +41,6 @@ namespace Restaurant_API.Controllers {
 
                     meu_prato.AddGuarnicao(element);
                 }
-
-                meu_prato.FullValue();
 
                 Dictionary<string, object> dict = new Dictionary<string, object>();
 
@@ -59,6 +55,9 @@ namespace Restaurant_API.Controllers {
                 }
 
                 dict.Add("Guarnicao", my_list);
+                meu_prato.FullValue();
+
+                dict.Add("Valor Total", meu_prato.Value);
 
                 return Ok(dict);
             } else {
