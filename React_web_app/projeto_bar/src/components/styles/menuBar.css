@@ -2,8 +2,22 @@
 
     background-color: grey;
 
-    height: 100vh;
-    margin-top: -1rem;
+    height: 50vh;
+    margin-top: -1.4rem;
+}
+
+.wrapper.menu_container .top_bar{
+    
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+    margin-left: 5rem;
+}
+
+ul.top_bar h1{
+
+    font-size: 3em;
 }
 
 .hide_it {
@@ -11,6 +25,29 @@
 }
 
 .show_it {
+
     display: block;
 }
 
+.hide_menu {
+
+    display: none;
+}
+
+
+.material-icons {
+
+    font-size: 3rem;
+}
+
+ul.menu_closed {
+    display: none;
+}
+
+.menu_closed {
+    display: none;
+}
+
+.menu_itens {
+    margin-left: 2rem;
+}

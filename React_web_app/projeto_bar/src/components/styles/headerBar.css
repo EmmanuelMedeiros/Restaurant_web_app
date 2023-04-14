@@ -11,3 +11,8 @@
     align-items: center;
     gap: 2rem;
 }
+
+.wrapper.header_container h1{
+
+    font-size: 3rem;
+}
