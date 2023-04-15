@@ -5,6 +5,7 @@ import Teste from "./components/Teste";
 function App() {
   return(
     <div>
+      <MenuBar/>
       <DataScreen/>
     </div>
   )
