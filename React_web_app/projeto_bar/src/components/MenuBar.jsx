@@ -19,10 +19,10 @@ function MenuBar() {
           </ul>
 
           <ul className="items">
-            <li onClick={menuOpen ? () => setMenuOpen(false) : () => setMenuOpen(true)} ><h2>+ Menu</h2></li>
-            <li className={menuOpen ? "menu_itens" : "menu_closed"}>Pratos completos</li>
-            <li className={menuOpen ? "menu_itens" : "menu_closed"}>Tira-gostos</li>
-            <li className={menuOpen ? "menu_itens" : "menu_closed"}>Bebidas</li>
+            <li id={menuOpen ? "oppened_menu" : "closed_menu"} onClick={menuOpen ? () => setMenuOpen(false) : () => setMenuOpen(true)} ><h2>Menu</h2></li>
+            <li className={menuOpen ? "menu_itens" : "menu_closed"}><p>Pratos completos</p></li>
+            <li className={menuOpen ? "menu_itens" : "menu_closed"}><p>Tira-gostos</p></li>
+            <li className={menuOpen ? "menu_itens" : "menu_closed"}><p>Bebidas</p></li>
             <li><h2>Contato</h2></li>
           </ul>
           
